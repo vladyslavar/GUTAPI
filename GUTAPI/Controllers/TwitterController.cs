@@ -38,8 +38,8 @@ namespace GUTAPI.Controllers
             string _oauth_token = oauth_token;
             string _oauth_verifier = oauth_verifier;
             result = twitterAuthorize.GetTokens(
-                "fGPc4QONQcctUxMv5ZHzVo1HA",
-                "CduzTML5y3cKmLolA4NiVxgVQ58RB7lsissQcjT65jMtRk4I0X",
+                "[token]",
+                "[token]",
                 oauth_token,
                 "",
                 oauth_verifier);
@@ -56,8 +56,8 @@ namespace GUTAPI.Controllers
             }
             TwitterToken token = new TwitterToken()
             {
-                consumer_key = "fGPc4QONQcctUxMv5ZHzVo1HA",
-                consumer_secret = "CduzTML5y3cKmLolA4NiVxgVQ58RB7lsissQcjT65jMtRk4I0X",
+                consumer_key = "[token]",
+                consumer_secret = "[token]",
                 access_token = res[0],
                 access_token_secret = res[1],
                 twitter_user_id = res[2]
@@ -81,8 +81,8 @@ namespace GUTAPI.Controllers
         {
             TwitterToken token = new TwitterToken()
             {
-                consumer_key = "fGPc4QONQcctUxMv5ZHzVo1HA",
-                consumer_secret = "CduzTML5y3cKmLolA4NiVxgVQ58RB7lsissQcjT65jMtRk4I0X",
+                consumer_key = "[token]",
+                consumer_secret = "[token]",
                 access_token = "123",
                 access_token_secret = "123",
                 twitter_user_id = "12345"
