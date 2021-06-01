@@ -20,8 +20,8 @@ namespace GUTAPI.Controllers
     {
         RedditAuthorize redditAuthorize = new RedditAuthorize();
         CustomDBContext db;
-        private const string appId = "XHgTbiabwFt54A";
-        private const string appSecret = "mNtnrSsUHBSUD23PrhFO7zQwfWfhSQ";
+        private const string appId = "[tokens]";
+        private const string appSecret = "[tokens]";
         public ReditController(CustomDBContext db)
         {
             this.db = db;
