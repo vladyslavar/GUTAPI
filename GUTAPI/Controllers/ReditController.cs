@@ -14,9 +14,6 @@ using Newtonsoft.Json.Linq;
 
 namespace GUTAPI.Controllers
 {
-    //register user //register method in reddit actions 
-    //get message
-    //send message
     [Route("api/[controller]")]
     [ApiController]
     public class ReditController : ControllerBase
